@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FragmentSub</string>
+    <string name="choice_title">Bienvenue</string>
+    <string name="action_new_registration">Nouvelle inscription</string>
+    <string name="action_login">Connexion</string>
+    <string name="login_title">Connexion</string>
+    <string name="action_connect">Se connecter</string>
+
+    <string name="registration_title">Inscription</string>
+    <string name="planning_title">Planning journalier</string>
+    <string name="planning_summary_title">Synthese du planning</string>
+
+    <string name="hint_login">Login</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_nom">Nom</string>
+    <string name="hint_prenom">Prenom</string>
+    <string name="hint_date_naissance">Date de naissance (JJ/MM/AAAA)</string>
+    <string name="hint_telephone">Telephone</string>
+    <string name="hint_email">Adresse mail</string>
+    <string name="hint_adresse">Adresse</string>
+    <string name="hint_slot_08_10">08h-10h (ex: Cours HAI813I)</string>
+    <string name="hint_slot_10_12">10h-12h (ex: Reunion TER)</string>
+    <string name="hint_slot_14_16">14h-16h (ex: TP HAI811I)</string>
+    <string name="hint_slot_16_18">16h-18h (ex: Sport)</string>
+
+    <string name="label_interests">Centres d\'interet</string>
+    <string name="interest_sport">Sport</string>
+    <string name="interest_musique">Musique</string>
+    <string name="interest_lecture">Lecture</string>
+    <string name="action_submit">Soumettre</string>
+    <string name="action_validate_planning">Valider le planning</string>
+
+    <string name="error_required_fields">Veuillez remplir tous les champs obligatoires.</string>
+    <string name="error_invalid_login">Le login doit commencer par une lettre et contenir au plus 10 caracteres (lettres/chiffres/_).</string>
+    <string name="error_invalid_password">Le mot de passe doit contenir exactement 6 caracteres.</string>
+    <string name="error_login_exists">Ce login existe deja.</string>
+    <string name="error_invalid_email">Veuillez saisir une adresse mail valide.</string>
+    <string name="error_no_interest">Veuillez choisir au moins un centre d\'interet.</string>
+    <string name="error_db_insert">Erreur lors de l\'enregistrement en base.</string>
+    <string name="error_required_login_password">Veuillez saisir login et mot de passe.</string>
+    <string name="error_login_failed">Connexion refusee: login ou mot de passe invalide.</string>
+    <string name="error_unknown_user">Utilisateur inconnu.</string>
+    <string name="error_planning_required">Veuillez remplir les 4 creneaux du planning.</string>
+    <string name="error_planning_save">Erreur lors de la sauvegarde du planning.</string>
+    <string name="error_planning_missing">Aucun planning trouve pour cet utilisateur.</string>
+    <string name="success_saved">Inscription enregistree avec succes.</string>
+    <string name="success_planning_saved">Planning enregistre avec succes.</string>
+
+    <string name="summary_login">Login: %1$s</string>
+    <string name="summary_slot_08_10">08h-10h: %1$s</string>
+    <string name="summary_slot_10_12">10h-12h: %1$s</string>
+    <string name="summary_slot_14_16">14h-16h: %1$s</string>
+    <string name="summary_slot_16_18">16h-18h: %1$s</string>
+</resources>
